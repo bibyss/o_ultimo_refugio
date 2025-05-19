@@ -1,2 +1,2 @@
-# o_ultimo_refugio
-Repositório para salvar atualizações e backups do site do meu projeto, O Último Refúgio
+# O Último Refúgio
+O principal propósito da existência desse repositório é salvar backups do site do meu projeto, O Último Refúgio
