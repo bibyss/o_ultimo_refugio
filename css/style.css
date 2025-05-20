@@ -1,0 +1,79 @@
+/* Estilo geral do corpo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Cor de fundo clara */
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333; /* Cor de fundo escura para o cabeçalho */
+  color: white; /* Cor do texto em branco */
+  padding: 20px;
+  text-align: center;
+}
+
+header .logo {
+  width: 100px;
+  height: auto;
+}
+
+header h1 {
+  margin: 10px 0;
+  font-size: 2rem;
+}
+
+/* Estilo para a navegação */
+nav {
+  background-color: #444; /* Cor de fundo escura para o menu */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* Cor do texto do link */
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #666; /* Cor do fundo ao passar o mouse */
+  color: #fff; /* Garantir que o texto fique branco ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilo para as imagens */
+.responsive-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333; /* Cor do fundo do rodapé */
+  color: white;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
