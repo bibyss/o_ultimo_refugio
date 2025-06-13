@@ -1,15 +1,19 @@
-/* Estilo geral do corpo */
+html {
+  overflow-y: scroll; /* Mantém o espaço da barra de rolagem sempre reservado */
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0; /* Cor de fundo clara */
+  background-color: #e6f7f9;
+  padding-bottom: 40px; /* Espaço para o footer fixo */
+  overflow-x: hidden; /* Previne scroll lateral acidental */
 }
 
-/* Estilo para o cabeçalho */
 header {
-  background-color: #333; /* Cor de fundo escura para o cabeçalho */
-  color: white; /* Cor do texto em branco */
+  background-color: #00a8c6;
+  color: white;
   padding: 20px;
   text-align: center;
 }
@@ -24,9 +28,8 @@ header h1 {
   font-size: 2rem;
 }
 
-/* Estilo para a navegação */
 nav {
-  background-color: #444; /* Cor de fundo escura para o menu */
+  background-color: #0097b2;
 }
 
 nav ul {
@@ -43,37 +46,272 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white; /* Cor do texto do link */
+  color: white;
   font-size: 1.1rem;
   padding: 10px 15px;
   display: inline-block;
 }
 
 nav ul li a:hover {
-  background-color: #666; /* Cor do fundo ao passar o mouse */
-  color: #fff; /* Garantir que o texto fique branco ao passar o mouse */
+  background-color: #00c3fb;
+  color: #ffffff;
 }
 
-/* Estilo para o conteúdo principal */
 section {
   padding: 20px;
   text-align: center;
 }
 
-/* Estilo para as imagens */
 .responsive-img {
   width: 100%;
   max-width: 800px;
   height: auto;
 }
 
-/* Rodapé */
 footer {
-  background-color: #333; /* Cor do fundo do rodapé */
+  background-color: #00a8c6;
   color: white;
   text-align: center;
   padding: 5px;
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+#history {
+  text-align: justify;
+  font-size: 15px;
+}
+
+#s1 {
+  align-items: center;
+}
+
+#mecanicas-desafios {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+#mecanicas-desafios h2 {
+  font-size: 2rem;
+  color: #00a389;
+  border-bottom: 2px solid #9be8dc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#mecanicas-desafios h3 {
+  font-size: 1.4rem;
+  color: #00c3a3;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#mecanicas-desafios p {
+  margin-bottom: 16px;
+}
+
+#mecanicas-desafios ul {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+#mecanicas-desafios ul li {
+  margin-bottom: 8px;
+}
+
+#mecanicas-desafios strong {
+  color: #008e76;
+}
+
+#projeto-jogo {
+  max-width: 800px;
+  background-color: #ffffff;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#projeto-jogo h2 {
+  font-size: 2rem;
+  color: #00a389;
+  border-bottom: 2px solid #9be8dc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#projeto-jogo p {
+  margin-bottom: 16px;
+}
+
+#projeto-jogo strong {
+  color: #008e76;
+}
+
+#historia-jogo {
+  max-width: 800px;
+  background-color: #ffffff;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#historia-jogo h2 {
+  font-size: 2rem;
+  color: #00a389;
+  border-bottom: 2px solid #9be8dc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#historia-jogo p {
+  margin-bottom: 16px;
+}
+
+#historia-jogo strong {
+  color: #008e76;
+}
+
+#resumo-jogo {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f1fafb;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+#resumo-jogo h2 {
+  font-size: 2rem;
+  color: #00a389;
+  border-bottom: 2px solid #9be8dc;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+#resumo-jogo h3 {
+  font-size: 1.4rem;
+  color: #00c3a3;
+  margin-top: 20px;
+}
+
+#resumo-jogo p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+#resumo-jogo ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+#resumo-jogo ul li {
+  margin-bottom: 8px;
+}
+
+#resumo-jogo strong {
+  color: #008e76;
+}
+
+#imagens-destaque {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.imagem-destaque {
+  background: #f1fafb;
+  border: 2px solid #9be8dc;
+  border-radius: 10px;
+  overflow: hidden;
+  flex: 1 1 45%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+}
+
+.imagem-destaque img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.imagem-destaque p {
+  margin-top: 8px;
+  color: #00a389;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #imagens-destaque {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem-destaque {
+    flex: 1 1 100%;
+  }
+}
+
+.dev-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.developer {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+  max-width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+
+.developer img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  margin-bottom: 15px;
+}
+
+.developer h2 {
+  margin: 10px 0 8px;
+  font-size: 1.6rem;
+  color: #00695c;
+}
+
+.developer p.personality {
+  font-size: 1rem;
+  color: #004d40;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .dev-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .developer {
+    max-width: 90%;
+  }
 }
